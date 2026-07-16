@@ -178,6 +178,12 @@ const music = [
     image: "",
     url: ""
   },
+  {
+    artist: "",
+    title: "",
+    image: "",
+    url: ""
+  },
 ]
 
 

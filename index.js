@@ -192,6 +192,10 @@ app.get('/port', (req, res) =>{
   res.send(port)
 })
 
+app.get('/songs', (req, res) => {
+  res.send(music)
+})
+
 
 app.listen(port, ()=>{
   console.log("Server listening on", port);
